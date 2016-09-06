@@ -28,7 +28,7 @@ public class Elevator {
         if (7 < floor || floor < 1) // floor out of range
             throw new IllegalArgumentException("Floor is not valid!");
 
-        pssngrList[--floor] += 1; //increment number of pssngrs by 1
+        pssngrList[--floor] += 1; //increment number of passengers by 1
     }
 
     private int totalPassengers() {
